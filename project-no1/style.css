@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&family=Pacifico&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(photos/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+/* NavLeft- Start. */
+.nav-left {
+  align-items: center;
+}
+.logo {
+  font-family: "Nunito", sans-serif;
+  font-family: "Pacifico", cursive;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  font-size: 26px;
+}
+.join {
+  text-decoration: none;
+  color: white;
+  padding: 4px 7px;
+  background-color: rgb(89, 241, 89);
+  border-radius: 5px;
+  margin-top: 0;
+}
+.login {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+  margin: 0px 5px;
+}
+.drop1-btn {
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.dropdown-1 {
+  position: relative;
+  display: inline-block;
+}
+.content {
+  display: none;
+  position: absolute;
+  /* background-color: #f9f9f9; */
+  /* min-width: 160px; */
+}
+.content a {
+  background: chartreuse;
+  width: 100%;
+  color: black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.content a:hover {
+  background-color: green;
+  color: white;
+}
+.content a:last-child {
+  border-bottom: none;
+}
+.dropdown-1:hover .content {
+  display: block;
+  /* display: visible; */
+}
+/* NavLeft- End. */
+/* NavRight- Start. */
+
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+form {
+  position: relative;
+}
+form > input {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 7px;
+  background-color: rgb(245, 226, 226);
+  /* background-color: transparent; */
+}
+.search {
+  border: none;
+  position: absolute;
+  top: 6px;
+  /* left: 30px; */
+  right: 2px;
+  background-color: transparent;
+}
+.upload {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  margin: 0px 3px;
+  padding: 4px 4px 4px 3px;
+  border-radius: 5px;
+}
+/* NavRight- End. */
+.main-section {
+  width: 100%;
+  margin-top: 150px;
+  height: 100vh;
+  /* border: 2px solid red; */
+}
+.title {
+  text-align: center;
+  color: white;
+}
+span {
+  font-family: "Nunito", sans-serif;
+  font-family: "Pacifico", cursive;
+  /* color: white; */
+  font-size: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.para {
+  text-transform: uppercase;
+  font-family: Tahoma, sans-serif;
+  font-weight: bolder;
+}
+.download-btn {
+  background-color: rgb(221, 64, 64);
+  color: white;
+  padding: 10px 24px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
